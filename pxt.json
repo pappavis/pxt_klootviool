@@ -1,7 +1,7 @@
 {
-    "name": "pxt-sonar",
+    "name": "pxt_klootviool",
     "version": "0.0.5",
-    "description": "A MakeCode package to use sonar sensors",
+    "description": "A MakeCode package om sonar sensors te gebruiken",
     "license": "MIT",
     "dependencies": {
         "core": "*"
