@@ -11,7 +11,7 @@ enum PingUnit {
  * KLOOTVIOOL_XY1 and ping utilities
  */
 //% color="#2c3e50" weight=10
-namespace KLOOTVIOOL_XY1 {
+namespace KLOOTVIOOL_XY2 {
     /**
      * Stuur een KLOOTVIOOL_XY1 pingen meet die echo tijd (in microseconden) als resultaat
      * @param trig tigger pin pennetje
