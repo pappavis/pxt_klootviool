@@ -20,7 +20,7 @@ namespace KLOOTVIOOL_XY2 {
      * @param unit desired omreken eenheid
      * @param maxCmDistance maximum afstand in centimeter (default is 500)
      */
-    //% blockId=KLOOTVIOOL_XY1_ping block="ping trig %trig|echo %echo|unit %unit"
+    //% blockId=KLOOTVIOOL_XY2 block="ping trig %trig|echo %echo|unit %unit"
     export function ping(trig: AnalogPin, echo: AnalogPin, unit: PingUnit, maxCmDistance : number {
         // send pulse
         pins.setPull(trig, PinPullMode.PullNone);
