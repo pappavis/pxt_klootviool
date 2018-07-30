@@ -8,19 +8,19 @@ enum PingUnit {
 }
 
 /**
- * KLOOTVIOOL_XY2 and ping utilities
+ * KLOOTVIOOL_XY1 and ping utilities
  */
 //% color="#2c3e50" weight=10
-namespace KLOOTVIOOL_XY2 {
+namespace KLOOTVIOOL_XY1 {
     /**
-     * Stuur een KLOOTVIOOL_XY2 pingen meet die echo tijd (in microseconden) als resultaat
-     * @param trig tigger pin pennetje
+     * Stuur een KLOOTVIOOL_XY1 pingen meet die echo tijd (in microseconden) als resultaat
+     * @param trig tigger pin
      * @param echo echo pin
      * @param teller1 lekker onzin praat
      * @param unit desired omreken eenheid
      * @param maxCmDistance maximum afstand in centimeter (default is 500)
      */
-    //% blockId=KLOOTVIOOL_XY2 block="ping trig %trig|echo %echo|unit %unit"
+    //% blockId=KLOOTVIOOL_XY1_ping block="ping trig %trig|echo %echo|unit %unit"
     export function ping(trig: AnalogPin, echo: AnalogPin, unit: PingUnit, maxCmDistance : number {
         // send pulse
         pins.setPull(trig, PinPullMode.PullNone);
