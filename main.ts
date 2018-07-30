@@ -8,7 +8,7 @@ enum PingUnit {
 }
 
 /**
- * KLOOTVIOOL_XY1 and ping utilities
+ * KLOOTVIOOL_XY2 and ping utilities
  */
 //% color="#2c3e50" weight=10
 namespace KLOOTVIOOL_XY2 {
